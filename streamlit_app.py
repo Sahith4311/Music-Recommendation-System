@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Set Streamlit theme and layout
 st.set_page_config(
-    page_title="Music Recommendation System",
+    page_title="NLP Project-Music Recommendation System",
     page_icon="🎵",
     layout="wide",
     initial_sidebar_state="expanded",
