@@ -37,7 +37,7 @@ st.title("🎵 Music Recommendation System")
 
 # Sidebar with user input
 st.sidebar.header("User Input")
-song_name = st.sidebar.text_input("Enter a song name:", "Shape of You")
+song_name = st.sidebar.text_input("Enter a song name:", "Clic clac cloc")
 num_recommendations = st.sidebar.slider("Number of Recommendations", min_value=1, max_value=20, value=10)
 
 
