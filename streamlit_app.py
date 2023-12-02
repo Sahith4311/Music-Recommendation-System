@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # Load and preprocess the dataset
-data = pd.read_csv('Spotify.csv')
+data = pd.read_csv('Songs.csv')
 
 # Drop rows with invalid 'duration_ms' values (non-numeric)
 data = data[pd.to_numeric(data['duration_ms'], errors='coerce').notna()]
